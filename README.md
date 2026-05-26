@@ -7,11 +7,11 @@ Instalación de OwnCloud con Docker en 1 minuto. Incluye volumen persistente, va
 ## ⚠️ ANTES DE EMPEZAR
 
 Necesitas:
-- **Docker instalado** en tu servidor (Ubuntu/Debian)
+- **Docker instalado** en tu servidor (Ubuntu 22.04 o Debian 12)
 - Un usuario con permisos para ejecutar `docker`
 
 Si no tienes Docker, instálalo con:  
-👉 [docker-ubuntu22-installer](https://github.com/Carlos-Silva-Sys/docker-ubuntu22-installer)
+👉 [docker-installer](https://github.com/Carlos-Silva-Sys/docker-installer) (Ubuntu 22.04 / Debian 12)
 
 ---
 
@@ -155,6 +155,13 @@ docker run -d \
 owncloud-docker-installer/
 └── README.md
 ```
+
+---
+
+## 🔗 PROYECTOS RELACIONADOS
+
+- [docker-installer](https://github.com/Carlos-Silva-Sys/docker-installer) - Instalación de Docker en Ubuntu 22.04 / Debian 12
+- [owncloud-ubuntu22-installer](https://github.com/Carlos-Silva-Sys/owncloud-ubuntu22-installer) - OwnCloud con script nativo (aprendizaje)
 
 ---
 
